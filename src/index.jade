@@ -1,0 +1,68 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Kecerdasan Buatan
+
+    // build:css styles/styles.css
+    //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+    // endbuild
+
+  body
+
+    article
+
+      section(data-bespoke-state='first_slide')
+        h1.logo Error403
+        Anggota
+        <table>
+        tr
+         td 1.
+         td(style="text-align:left") Alfonso Daniel
+         td 121112589
+        </table>
+
+      section(data-bespoke-state='emphatic')
+        h1 Kecerdasan Buatan
+
+      section(data-bespoke-state='emphatic')
+        h2 Apa itu Kecerdasan Buatan?
+        p Kecerdasan Buatan (bahasa Inggris: Artificial Intelligence atau biasa disingkat AI) merupakan salah satu bagian ilmu komputer yang membuat agar mesin (komputer) dapat melakukan pekerjaan seperti yang dapat dilakukan manusia.
+
+      section(data-bespoke-state='emphatic')
+        h2 Sejarah Kecerdasan Buatan
+        p Tahun 1950 – an Alan Turing, seorang pionir AI dan ahli matematika Inggris melakukan percobaan Turing (Turing Test) yaitu sebuah komputer melalui terminalnya ditempatkan pada jarak jauh. Di ujung yang satu ada terminal dengan software AI dan diujung lain ada sebuah terminal dengan seorang operator. Operator itu tidak mengetahui kalau di ujung terminal lain dipasang software AI. Mereka berkomunikasi dimana terminal di ujung memberikan respon terhadap serangkaian pertanyaan yang diajukan oleh operator. Dan sang operator itu mengira bahwa ia sedang berkomunikasi dengan operator lainnya yang berada pada terminal lain. Turing beranggapan bahwa jika mesin dapat membuat seseorang percaya bahwa dirinya mampu berkomunikasi dengan orang lain, maka dapat dikatakan bahwa mesin tersebut cerdas (seperti layaknya manusia).
+
+      section(data-bespoke-state='emphatic')
+        h2 Definisi
+        h3.bullet Beberapa pakar ilmu kecerdasan buatan membuat bermacam – macam definisi, antara lain:
+        ol
+          li<b>Buchanan dan Shortliffe (1985)</b>
+          p.bullet menyatakan bahwa kecerdasan tiruan merupakan manipulasi simbol – simbol untuk menyelesaikan masalah.
+          li <b>Waterman (1986)</b>
+          p.bullet mengungkapkan bahwa kecerdasan tiruan adalah bagian penting ilmu pengetahuan bidang komputer yang diperlukan untuk mengembangkan kecerdasan program – program komputer.
+
+      section(data-bespoke-state='emphatic')
+        h2 Definisi
+        ol(start=3)
+          li <b>Rich (1981)</b>
+          p.bullet mendefinisikan kecerdasan tiruan sebagai suatu studi bagaimana membuat komputer mengerjakan sesuatu sedemikian rupa sehingga pada saat itu orang merasa mendapatkan hasil yang lebih baik.
+          li <b>Shcildt (1987)</b>
+          p.bullet mengatakan bahwa suatu program kecerdasan tiruan akan menunjukkan perilaku program yang menyerupai perilaku manusia jika menghadapi persoalan yang sama.
+
+    // build:js scripts/scripts.js
+    script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+    script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+    script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+    script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+    script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+    script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+    script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+    script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+    script(src='bower_components/prism/prism.js')
+    script(src='scripts/main.js')
+    // endbuild
